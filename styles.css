@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 9px;
+}
+
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(255, 0, 0);
+    
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
+
+.pnge {
+    width: 60%;
+    height: 95%;
+}
+
+.foto {
+    display: flex;
+    margin-left: 18%;
+    margin-top: 120px;
+}
+
+.pnge2 {
+    width: 55%;
+    height: 85%;
+}
+
+.foto2 {
+    display: flex;
+    margin-left: 70%;
+    margin-top: -190px;
+}
+
+.pnge3 {
+    width: 85%;
+    height: 105%;
+}
+
+.foto3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: -230px;
+    margin-left: 65px;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 35px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.fot {
+    display: flex;
+    margin-left: 21%;
+    margin-top: 9px;
+}
+
+.tekz {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+    margin-left: -185px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fok {
+    display: flex;
+    margin-left: 21%;
+    margin-top: 35px;
+}
+
+.foto0 {
+    display: flex;
+    margin-left: 65%;
+    margin-top: -195px;
+    width: 45%;
+    height: 25%;
+}
+
+.hobby{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+
+.foto99 {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 50px;
+    width: 45%;
+    height: 25%;
+}
+.foto90 {
+    display: flex;
+    margin-left: 580px;
+    margin-top: -173px;
+    width: 45%;
+    height: 25%;
+}
+.foto95 {
+    display: flex;
+    margin-left: 810px;
+    margin-top: -173px;
+    width: 45%;
+    height: 25%;
+}
+.hy{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 15px;
+    margin-left: -500px;
+}
+.hyu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: -20px;
+}
+.hyo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: -20px;
+    margin-left: 450px;
+}
+
+.support{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: -500px;
+}
+
+.foto8 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: -70px;
+    margin-left: 625px;
+    width: 130px;
+    height: 100px;
+}
